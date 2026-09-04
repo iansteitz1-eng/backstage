@@ -19,9 +19,11 @@ Anyone running browser automation (Claude, CDP seats, Playwright, agent stacks) 
 
 ## Why it exists
 
-We built Backstage because it happened to us. Our own agent's browser stole the founder's screen every fifteen minutes, mid-dictation, until the words he was speaking were being typed into the agent's window instead of his own. We traced the exact line of code that does it, a standard call every browser-automation stack makes, and realized every AI-agent user has this problem.
+We built Backstage because it happened to us. Our own agent's browser stole the founder's screen every fifteen minutes, mid-dictation, until the words being dictated were typed into the agent's window instead of the founder's own. We traced the exact line of code that does it, a standard call every browser-automation stack makes, and realized every AI-agent user has this problem.
 
-## Build it from source
+## Install
+
+### Build it from source
 
 Requires macOS 13 or newer and Xcode command line tools.
 
@@ -34,7 +36,7 @@ open dist/Backstage.app
 
 The unsigned build you make yourself is the same code; macOS will ask you to allow it the first time. The `backstage-allow` CLI is built alongside it.
 
-## Get the signed build
+### Get the signed build
 
 The notarized, Developer ID-signed `Backstage.app` is at [voxordo.io/backstage](https://voxordo.io/backstage?utm_source=github&utm_medium=readme&utm_campaign=backstage). It opens like any Mac app, no right-click needed, and updates come with it.
 
