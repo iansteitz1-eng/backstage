@@ -1,0 +1,19 @@
+{
+  "product": "backstage",
+  "version": "0.1.1",
+  "generated": "2026-08-31 06:13Z",
+  "scorecard_rows_passed": [
+    "2026-08-31_0231Z S1+S6 CDP raise storm bounced then breaker",
+    "2026-08-31_0229Z S2 alternate raise path (AppleScript frontmost) bounced",
+    "2026-08-31_0229Z S3 user-initiated raise of a jailed app passes",
+    "2026-08-31_0231Z S4 dictation shield blocks ALL programmatic raises (manual mode; auto ships OFF on warm-mic boxes)",
+    "2026-08-31_0232Z S5 allow token: pass for exactly TTL, bounce after expiry",
+    "2026-08-31_0229Z S7 per-instance discrimination: seat bounced, user-profile Chrome never"
+  ],
+  "scorecard_rows_open": [
+    "--- ---",
+    "2026-08-31_0520Z Witness findings (to fix before page-live)",
+    "2026-08-31_0538Z S8 first run on v0.1.0 \u2014 REAL-BUYER PATH CAUGHT A SHIP-BLOCKER"
+  ],
+  "codesign": "developer-id+notarized+stapled"
+}
