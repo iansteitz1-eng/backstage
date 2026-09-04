@@ -28,7 +28,7 @@ scorecard rows are the source of truth. Nothing on this page is hand-written mar
 
 ## Escalation
 Something bounced that shouldn't have (or didn't that should)? Every decision is in
-`~/Library/Logs/backstage/decisions.jsonl` — send it with a note to hello@voxordo.io and it
+`~/Library/Logs/backstage/decisions.jsonl` — send it with a note to hello@voxordo.ai and it
 becomes a falsifier in the next build. Storming apps trip a breaker (6 bounces/60s per app,
 5-minute pause) so the guard can never become its own problem.
 

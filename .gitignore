@@ -3,3 +3,11 @@ dist/
 *.bak*
 __pycache__/
 .DS_Store
+# secrets — never tracked
+.env
+*.key
+*.pem
+*.p8
+*.p12
+*-secret.*
+credentials*
