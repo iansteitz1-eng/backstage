@@ -4,7 +4,6 @@ Your AI agents keep grabbing your screen. Backstage makes them stay backstage.
 
 Anyone running browser automation (Claude, CDP seats, Playwright, agent stacks) knows the moment: a window you did not ask for jumps in front of you, your dictation dies mid-sentence, your typing lands in the wrong app. Backstage is a macOS menu-bar app that ends it. Your agents keep working, in the background, where they belong. Your screen stays yours.
 
-![Backstage menu](docs/menu.png)
 
 ## What it does
 
